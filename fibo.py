@@ -1,4 +1,4 @@
-nterms = int(input("How many terms? "))
+nterms = int(input("Enter no.of terms :  "))
 
 a, b = 0, 1
 count = 0
@@ -12,7 +12,7 @@ else:
    print("Fibonacci sequence:")
    while count < nterms:
        print(a)
-       nth = a + b
+       x = a + b
        a = b
-       b = nth
+       b = x
        count += 1
